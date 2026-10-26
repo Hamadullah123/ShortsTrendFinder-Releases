@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="assets/icon.png" width="96" alt="Shorts Trend Finder logo">
+  <img src="assets/icon.png" width="96" alt="VidAtlas logo">
 </p>
 
-<h1 align="center">Shorts Trend Finder</h1>
+<h1 align="center">VidAtlas</h1>
 
 <p align="center">
-  A Windows app for finding high-performing YouTube Shorts and long-form videos in any niche, using live data from the official YouTube Data API v3.
+  VidAtlas (formerly Shorts Trend Finder) is a Windows app for finding high-performing YouTube Shorts and long-form videos in any niche, using live data from the official YouTube Data API v3.
 </p>
 
 <p align="center">
-  <a href="https://github.com/Hamadullah123/ShortsTrendFinder-Releases/releases/latest"><b>⬇ Download the latest version</b></a>
+  <a href="https://github.com/Hamadullah123/VidAtlas-Releases/releases/latest"><b>⬇ Download the latest version</b></a>
 </p>
 
 ---
@@ -26,13 +26,15 @@ The sidebar has **Discover** (with **Shorts** and **Long Form**), **Library** an
   - Click the search bar to see your recent searches, or open **History** for the full list.
 - **Filters:** last 24 hours, 7 days, 30 days or custom dates; Most viewed or Trending candidates; minimum views; length; language and region.
 - **Library:** bookmark videos, organise them into collections and add your own notes, with your saved searches in a second tab so you can rerun them in one click. Filter by **All, Shorts or Long Form**.
+- **Automatic updates:** signed and verified before they install, with a What's new page after each update. An optional beta channel is in **Settings → Updates**.
 - **Usage:** a quota tracker in the sidebar, plus a daily chart in **Settings → Usage** of the search requests and API units you've used.
 
 ## Install
 
-1. Download **Shorts-Trend-Finder-Setup-x.y.z.exe** from the [latest release](https://github.com/Hamadullah123/ShortsTrendFinder-Releases/releases/latest).
+1. Download **VidAtlas-Setup-x.y.z.exe** from the [latest release](https://github.com/Hamadullah123/VidAtlas-Releases/releases/latest).
 2. Run it. The installer isn't code-signed, so if Windows SmartScreen appears, click **More info → Run anyway**.
-3. To upgrade, just install the new version over the old one. Your settings, key and library are kept.
+3. VidAtlas updates itself. It checks quietly in the background, downloads and verifies new versions, and asks before restarting. You can also check in **Settings → Updates**.
+4. Already using Shorts Trend Finder? Install VidAtlas over it, or let your copy update. Your key, library, searches, history and settings move over automatically.
 
 ## You need your own free YouTube API key
 
