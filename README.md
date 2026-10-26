@@ -16,12 +16,15 @@
 
 ## Features
 
-- **Keyword search:** find the top Shorts whose *title* contains your keyword, using Exact phrase, All keywords or Any keyword matching.
-- **Browse Niches:** 10 categories (Gaming, Technology, Finance & Business…), each with sub-niches you can customise. Official YouTube categories are labelled separately from the app's own presets.
+The app has three sections: **Discover**, **Library** and **Settings**.
+
+- **Discover:** search by keyword and browse niches in one place.
+  - Find the top Shorts whose *title* contains your keyword, using Exact phrase, All keywords or Any keyword matching.
+  - Open **Niches** to browse 10 categories (Gaming, Technology, Finance & Business…), each with sub-niches you can customise. Official YouTube categories are labelled separately from the app's own presets.
+  - Click the search bar to see your recent searches, or open **History** for the full list.
 - **Filters:** last 24 hours, 7 days, 30 days or custom dates; Most viewed or Trending candidates; minimum views; duration range; language and region.
-- **Library:** bookmark Shorts, organise them into collections, and add your own notes.
-- **Saved Searches & History:** rerun your favourite searches in one click.
-- **Quota tracker:** shows how much of YouTube's daily API quota you've used.
+- **Library:** bookmark Shorts, organise them into collections and add your own notes, with your saved searches in a second tab so you can rerun them in one click.
+- **Usage:** a quota tracker in the sidebar, plus a daily chart in **Settings → Usage** of the search requests and API units you've used.
 
 ## Install
 
