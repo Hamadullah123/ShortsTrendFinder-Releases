@@ -5,7 +5,7 @@
 <h1 align="center">Shorts Trend Finder</h1>
 
 <p align="center">
-  A Windows app for finding high-performing YouTube Shorts in any niche, using live data from the official YouTube Data API v3.
+  A Windows app for finding high-performing YouTube Shorts and long-form videos in any niche, using live data from the official YouTube Data API v3.
 </p>
 
 <p align="center">
@@ -16,14 +16,16 @@
 
 ## Features
 
-The app has three sections: **Discover**, **Library** and **Settings**.
+The sidebar has **Discover** (with **Shorts** and **Long Form**), **Library** and **Settings**.
 
-- **Discover:** search by keyword and browse niches in one place.
-  - Find the top Shorts whose *title* contains your keyword, using Exact phrase, All keywords or Any keyword matching.
+- **Shorts and Long Form:** two separate research pages with the same tools. Each keeps its own search, results and history, and their results never mix.
+  - **Shorts** shows only videos that meet YouTube's Shorts format: up to 3 minutes and vertical or square, both checked through the API.
+  - **Long Form** shows videos 4 minutes and longer by default, with 4–10, 10–20, 20–60 and 60+ minute filters, on larger 16:9 cards.
+  - Find the top videos whose *title* contains your keyword, using Exact phrase, All keywords or Any keyword matching.
   - Open **Niches** to browse 10 categories (Gaming, Technology, Finance & Business…), each with sub-niches you can customise. Official YouTube categories are labelled separately from the app's own presets.
   - Click the search bar to see your recent searches, or open **History** for the full list.
-- **Filters:** last 24 hours, 7 days, 30 days or custom dates; Most viewed or Trending candidates; minimum views; duration range; language and region.
-- **Library:** bookmark Shorts, organise them into collections and add your own notes, with your saved searches in a second tab so you can rerun them in one click.
+- **Filters:** last 24 hours, 7 days, 30 days or custom dates; Most viewed or Trending candidates; minimum views; length; language and region.
+- **Library:** bookmark videos, organise them into collections and add your own notes, with your saved searches in a second tab so you can rerun them in one click. Filter by **All, Shorts or Long Form**.
 - **Usage:** a quota tracker in the sidebar, plus a daily chart in **Settings → Usage** of the search requests and API units you've used.
 
 ## Install
@@ -46,6 +48,7 @@ It's free: Google gives each project about 100 searches a day.
 
 - All data comes live from YouTube. Results are a sample from YouTube's search index and may not include every matching video.
 - **Trending candidates** is YouTube's own relevance order and is labelled as an approximation. The app calculates no views-per-hour or growth scores.
+- YouTube's API doesn't say whether a video was officially published as a Short, so the Shorts page shows videos that meet the Shorts format rather than claiming confirmed Shorts. Videos whose shape YouTube doesn't report are left out, so a page can show fewer than 20 results.
 - The app doesn't download YouTube videos.
 - By using the app you agree to the [YouTube Terms of Service](https://www.youtube.com/t/terms). See also the [Google Privacy Policy](https://policies.google.com/privacy).
 
