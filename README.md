@@ -24,7 +24,8 @@ The sidebar has **Discover** (with **Shorts** and **Long Form**), **Library** an
   - Find the top videos whose *title* contains your keyword, using Exact phrase, All keywords or Any keyword matching.
   - Open **Niches** to browse 10 categories (Gaming, Technology, Finance & Business…), each with sub-niches you can customise. Official YouTube categories are labelled separately from the app's own presets.
   - Click the search bar to see your recent searches, or open **History** for the full list.
-- **Filters:** last 24 hours, 7 days, 30 days or custom dates; Most viewed or Trending candidates; minimum views; length; language and region.
+- **Sorting:** **Find videos by** Most viewed or Relevance, then set the **Display order** to Default, Newest first or Oldest first. Display order re-arranges the videos you've found by upload time, instantly and without using a search.
+- **Filters:** last 24 hours, 7 days, 30 days or custom dates; minimum views; length; language and region.
 - **Library:** bookmark videos, organise them into collections and add your own notes, with your saved searches in a second tab so you can rerun them in one click. Filter by **All, Shorts or Long Form**.
 - **Automatic updates:** signed and verified before they install, with a What's new page after each update. An optional beta channel is in **Settings → Updates**.
 - **Usage:** a quota tracker in the sidebar, plus a daily chart in **Settings → Usage** of the search requests and API units you've used.
@@ -49,7 +50,7 @@ It's free: Google gives each project about 100 searches a day.
 ## Notes
 
 - All data comes live from YouTube. Results are a sample from YouTube's search index and may not include every matching video.
-- **Trending candidates** is YouTube's own relevance order and is labelled as an approximation. The app calculates no views-per-hour or growth scores.
+- **Relevance** is YouTube's own search order, not a trend measurement. Newest and Oldest first arrange the videos retrieved for your search, not everything on YouTube. The app calculates no views-per-hour or growth scores.
 - YouTube's API doesn't say whether a video was officially published as a Short, so the Shorts page shows videos that meet the Shorts format rather than claiming confirmed Shorts. Videos whose shape YouTube doesn't report are left out, so a page can show fewer than 20 results.
 - The app doesn't download YouTube videos.
 - By using the app you agree to the [YouTube Terms of Service](https://www.youtube.com/t/terms). See also the [Google Privacy Policy](https://policies.google.com/privacy).
